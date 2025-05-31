@@ -1,0 +1,15 @@
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\obj\Debug\ClnParcial2Ydzn.csproj.AssemblyReference.cache
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\obj\Debug\ClnParcial2Ydzn.csproj.CoreCompileInputs.cache
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\ClnParcial2Ydzn.dll.config
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\ClnParcial2Ydzn.dll
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\ClnParcial2Ydzn.pdb
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\CadParcial2Ydzn.dll
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\EntityFramework.dll
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\CadParcial2Ydzn.pdb
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\CadParcial2Ydzn.dll.config
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\EntityFramework.xml
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\obj\Debug\ClnParci.67E1EDA2.Up2Date
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\obj\Debug\ClnParcial2Ydzn.dll
+C:\Users\daniz\Downloads\p2_sis457_ydzn\Parcial2Ydzn\ClnParcial2Ydzn\obj\Debug\ClnParcial2Ydzn.pdb

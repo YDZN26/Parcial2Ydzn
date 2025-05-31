@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Parcial2YdznModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Serie">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="titulo" Type="varchar" MaxLength="250" />
+    <Property Name="sinopsis" Type="varchar" MaxLength="5000" />
+    <Property Name="director" Type="varchar" MaxLength="100" />
+    <Property Name="episodios" Type="int" />
+    <Property Name="fechaEstreno" Type="date" />
+    <Property Name="estado" Type="smallint" />
+  </EntityType>
+  <EntityContainer Name="Parcial2YdznModelStoreContainer">
+    <EntitySet Name="Serie" EntityType="Self.Serie" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
