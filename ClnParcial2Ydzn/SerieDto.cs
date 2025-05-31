@@ -10,5 +10,7 @@ public class SerieDto
     public DateTime fechaEstreno { get; set; }
     public short estado { get; set; }
     public string estadoTexto { get; set; }
+    public string urlTrailer { get; set; }
+    public string idiomaOriginal { get; set; }
 }
 

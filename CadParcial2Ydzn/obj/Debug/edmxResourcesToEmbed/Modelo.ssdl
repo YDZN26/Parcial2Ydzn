@@ -11,6 +11,8 @@
     <Property Name="episodios" Type="int" />
     <Property Name="fechaEstreno" Type="date" />
     <Property Name="estado" Type="smallint" />
+    <Property Name="urlTrailer" Type="varchar" MaxLength="255" />
+    <Property Name="idiomaOriginal" Type="varchar" MaxLength="100" />
   </EntityType>
   <EntityContainer Name="Parcial2YdznModelStoreContainer">
     <EntitySet Name="Serie" EntityType="Self.Serie" Schema="dbo" store:Type="Tables" />

@@ -30,6 +30,9 @@ namespace ClnParcial2Ydzn
                     existente.episodios = serie.episodios;
                     existente.fechaEstreno = serie.fechaEstreno;
                     existente.estado = serie.estado;
+                    existente.urlTrailer = serie.urlTrailer;
+                    existente.idiomaOriginal = serie.idiomaOriginal;
+
 
                     context.SaveChanges(); // Esto es vital
                 }
@@ -75,7 +78,9 @@ namespace ClnParcial2Ydzn
                         fechaEstreno = s.fechaEstreno.GetValueOrDefault(),
                         estadoTexto = s.estado.GetValueOrDefault() == 1 ? "En emisión" :
                                       s.estado.GetValueOrDefault() == 0 ? "Estreno" :
-                                      "Cancelada"
+                                      "Cancelada",
+                        urlTrailer = s.urlTrailer,
+                        idiomaOriginal = s.idiomaOriginal
                     })
                     .ToList();
             }
@@ -98,7 +103,9 @@ namespace ClnParcial2Ydzn
                         fechaEstreno = s.fechaEstreno.GetValueOrDefault(),
                         estadoTexto = s.estado == 1 ? "En emisión" :
                                       s.estado == 0 ? "Estreno" :
-                                      "Cancelada"
+                                      "Cancelada",
+                        urlTrailer = s.urlTrailer,
+                        idiomaOriginal = s.idiomaOriginal
                     })
                     .ToList();
             }

@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="Parcial2YdznModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="Parcial2YdznModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Serie">
           <Key>
             <PropertyRef Name="id" />
@@ -16,12 +16,13 @@
           <Property Name="episodios" Type="int" />
           <Property Name="fechaEstreno" Type="date" />
           <Property Name="estado" Type="smallint" />
+          <Property Name="urlTrailer" Type="varchar" MaxLength="255" />
+          <Property Name="idiomaOriginal" Type="varchar" MaxLength="100" />
         </EntityType>
         <EntityContainer Name="Parcial2YdznModelStoreContainer">
           <EntitySet Name="Serie" EntityType="Self.Serie" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="Parcial2YdznModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -36,6 +37,8 @@
           <Property Name="episodios" Type="Int32" />
           <Property Name="fechaEstreno" Type="DateTime" Precision="0" />
           <Property Name="estado" Type="Int16" />
+          <Property Name="urlTrailer" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="idiomaOriginal" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="Parcial2YdznEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Serie" EntityType="Self.Serie" />
@@ -49,6 +52,8 @@
           <EntitySetMapping Name="Serie">
             <EntityTypeMapping TypeName="Parcial2YdznModel.Serie">
               <MappingFragment StoreEntitySet="Serie">
+                <ScalarProperty Name="idiomaOriginal" ColumnName="idiomaOriginal" />
+                <ScalarProperty Name="urlTrailer" ColumnName="urlTrailer" />
                 <ScalarProperty Name="id" ColumnName="id" />
                 <ScalarProperty Name="titulo" ColumnName="titulo" />
                 <ScalarProperty Name="sinopsis" ColumnName="sinopsis" />

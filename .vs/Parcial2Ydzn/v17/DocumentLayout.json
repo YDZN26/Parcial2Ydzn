@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|c:\\users\\daniz\\downloads\\p2_sis457_ydzn\\parcial2ydzn\\cpparcial2ydzn\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|c:\\users\\daniz\\downloads\\p2_sis457_ydzn\\parcial2ydzn\\cpparcial2ydzn\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -11,28 +15,27 @@
       "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\frmserie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\cpparcial2ydzn\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\frmserie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5B86C1E5-8952-4602-B2ED-EEB46C8BB455}|ClnParcial2Ydzn\\ClnParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\clnparcial2ydzn\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B86C1E5-8952-4602-B2ED-EEB46C8BB455}|ClnParcial2Ydzn\\ClnParcial2Ydzn.csproj|solutionrelative:clnparcial2ydzn\\seriecln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\cpparcial2ydzn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5B86C1E5-8952-4602-B2ED-EEB46C8BB455}|ClnParcial2Ydzn\\ClnParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\clnparcial2ydzn\\seriedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B86C1E5-8952-4602-B2ED-EEB46C8BB455}|ClnParcial2Ydzn\\ClnParcial2Ydzn.csproj|solutionrelative:clnparcial2ydzn\\seriedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\cpparcial2ydzn\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/Parcial2Ydzn/True/SqlTable/dbo.Serie.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E31AB98-C291-4520-B8D5-7ED1A999C343}|CadParcial2Ydzn\\CadParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\cadparcial2ydzn\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{8E31AB98-C291-4520-B8D5-7ED1A999C343}|CadParcial2Ydzn\\CadParcial2Ydzn.csproj|solutionrelative:cadparcial2ydzn\\modelo.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\cpparcial2ydzn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\cpparcial2ydzn\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9FA8D1F7-91EE-4137-928E-3F941680DCA0}|CpParcial2Ydzn\\CpParcial2Ydzn.csproj|solutionrelative:cpparcial2ydzn\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,62 +45,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "dbo.Serie [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/localhost_SQLEXPRESS/Parcial2Ydzn/True/SqlTable/dbo.Serie.sql",
+              "ToolTip": "dbo.Serie [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-31T15:13:30.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SerieDto.cs",
               "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\ClnParcial2Ydzn\\SerieDto.cs",
               "RelativeDocumentMoniker": "ClnParcial2Ydzn\\SerieDto.cs",
               "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\ClnParcial2Ydzn\\SerieDto.cs",
               "RelativeToolTip": "ClnParcial2Ydzn\\SerieDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T04:37:26.982Z"
+              "WhenOpened": "2025-05-31T04:37:26.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FrmSerie.Designer.cs",
               "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.Designer.cs",
               "RelativeDocumentMoniker": "CpParcial2Ydzn\\FrmSerie.Designer.cs",
               "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.Designer.cs",
               "RelativeToolTip": "CpParcial2Ydzn\\FrmSerie.Designer.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAqwKsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T03:57:26.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmSerie.cs",
-              "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.cs",
-              "RelativeDocumentMoniker": "CpParcial2Ydzn\\FrmSerie.cs",
-              "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.cs",
-              "RelativeToolTip": "CpParcial2Ydzn\\FrmSerie.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T03:56:21.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\App.config",
-              "RelativeDocumentMoniker": "CpParcial2Ydzn\\App.config",
-              "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\App.config",
-              "RelativeToolTip": "CpParcial2Ydzn\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-31T03:00:50.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\Program.cs",
               "RelativeDocumentMoniker": "CpParcial2Ydzn\\Program.cs",
@@ -109,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FrmSerie.cs [Design]",
               "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.cs",
               "RelativeDocumentMoniker": "CpParcial2Ydzn\\FrmSerie.cs",
@@ -127,20 +115,48 @@
               "RelativeDocumentMoniker": "ClnParcial2Ydzn\\SerieCln.cs",
               "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\ClnParcial2Ydzn\\SerieCln.cs",
               "RelativeToolTip": "ClnParcial2Ydzn\\SerieCln.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwFEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T00:19:49.988Z"
+              "WhenOpened": "2025-05-31T00:19:49.988Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "FrmSerie.cs",
+              "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.cs",
+              "RelativeDocumentMoniker": "CpParcial2Ydzn\\FrmSerie.cs",
+              "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\FrmSerie.cs",
+              "RelativeToolTip": "CpParcial2Ydzn\\FrmSerie.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAIAwwL8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:49:15.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\App.config",
+              "RelativeDocumentMoniker": "CpParcial2Ydzn\\App.config",
+              "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CpParcial2Ydzn\\App.config",
+              "RelativeToolTip": "CpParcial2Ydzn\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-31T03:00:50.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Modelo.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CadParcial2Ydzn\\Modelo.edmx",
               "RelativeDocumentMoniker": "CadParcial2Ydzn\\Modelo.edmx",
               "ToolTip": "C:\\Users\\daniz\\Downloads\\p2_sis457_ydzn\\Parcial2Ydzn\\CadParcial2Ydzn\\Modelo.edmx [Diagram1]",
               "RelativeToolTip": "CadParcial2Ydzn\\Modelo.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-05-31T00:15:05.297Z"
+              "WhenOpened": "2025-05-31T00:15:05.297Z",
+              "EditorCaption": " [Diagram1]"
             }
           ]
         }

@@ -21,5 +21,7 @@ namespace CadParcial2Ydzn
         public Nullable<int> episodios { get; set; }
         public Nullable<System.DateTime> fechaEstreno { get; set; }
         public Nullable<short> estado { get; set; }
+        public string urlTrailer { get; set; }
+        public string idiomaOriginal { get; set; }
     }
 }

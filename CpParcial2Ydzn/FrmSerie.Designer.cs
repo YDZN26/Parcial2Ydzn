@@ -49,6 +49,10 @@
             this.label7 = new System.Windows.Forms.Label();
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnBuscar = new C1.Win.C1Input.C1Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtUrlTrailer = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.cmbIdiomaOriginal = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.btnCrear)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEditar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnEliminar)).BeginInit();
@@ -114,7 +118,7 @@
             // btnCrear
             // 
             this.btnCrear.Image = ((System.Drawing.Image)(resources.GetObject("btnCrear.Image")));
-            this.btnCrear.Location = new System.Drawing.Point(351, 484);
+            this.btnCrear.Location = new System.Drawing.Point(338, 522);
             this.btnCrear.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnCrear.Name = "btnCrear";
             this.btnCrear.Size = new System.Drawing.Size(178, 55);
@@ -127,7 +131,7 @@
             // btnEditar
             // 
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
-            this.btnEditar.Location = new System.Drawing.Point(656, 484);
+            this.btnEditar.Location = new System.Drawing.Point(643, 522);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(178, 55);
@@ -140,7 +144,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.Location = new System.Drawing.Point(974, 484);
+            this.btnEliminar.Location = new System.Drawing.Point(961, 522);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(178, 55);
@@ -273,11 +277,56 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(817, 303);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(183, 29);
+            this.label8.TabIndex = 33;
+            this.label8.Text = "Url del Trailer:";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
+            // 
+            // txtUrlTrailer
+            // 
+            this.txtUrlTrailer.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.txtUrlTrailer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUrlTrailer.Location = new System.Drawing.Point(822, 348);
+            this.txtUrlTrailer.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.txtUrlTrailer.Name = "txtUrlTrailer";
+            this.txtUrlTrailer.Size = new System.Drawing.Size(429, 35);
+            this.txtUrlTrailer.TabIndex = 34;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(801, 415);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(199, 29);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "Idioma Original:";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // cmbIdiomaOriginal
+            // 
+            this.cmbIdiomaOriginal.FormattingEnabled = true;
+            this.cmbIdiomaOriginal.Location = new System.Drawing.Point(1010, 412);
+            this.cmbIdiomaOriginal.Name = "cmbIdiomaOriginal";
+            this.cmbIdiomaOriginal.Size = new System.Drawing.Size(245, 37);
+            this.cmbIdiomaOriginal.TabIndex = 36;
+            this.cmbIdiomaOriginal.SelectedIndexChanged += new System.EventHandler(this.cmbIdiomaOriginal_SelectedIndexChanged);
+            // 
             // FrmSerie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1321, 833);
+            this.Controls.Add(this.cmbIdiomaOriginal);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtUrlTrailer);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
             this.Controls.Add(this.label7);
@@ -335,5 +384,9 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtBuscar;
         private C1.Win.C1Input.C1Button btnBuscar;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtUrlTrailer;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.ComboBox cmbIdiomaOriginal;
     }
 }

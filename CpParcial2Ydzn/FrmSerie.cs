@@ -17,12 +17,14 @@ namespace CpParcial2Ydzn
         private void FrmSerie_Load(object sender, EventArgs e)
         {
             cmbEstado.Items.Clear();
-            cmbEstado.Items.Add(new EstadoItem { Texto = "En Emisión", Valor = 1 });
+            cmbEstado.Items.Add(new EstadoItem { Texto = "En Emision", Valor = 1 });
             cmbEstado.Items.Add(new EstadoItem { Texto = "Estreno", Valor = 0 });
             cmbEstado.Items.Add(new EstadoItem { Texto = "Cancelada", Valor = -1 });
             cmbEstado.DisplayMember = "Texto";
             cmbEstado.ValueMember = "Valor";
             cmbEstado.SelectedIndex = 0;
+            cmbIdiomaOriginal.Items.AddRange(new string[] { "Espanol", "Ingles", "Frances", "Aleman", "Japones" });
+            cmbIdiomaOriginal.SelectedIndex = 0;
             ListarSeries();
         }
 
@@ -38,10 +40,11 @@ namespace CpParcial2Ydzn
             var lista = string.IsNullOrWhiteSpace(filtro) ? SerieCln.Listar() : SerieCln.Buscar(filtro);
             dgvSeries.DataSource = lista;
             dgvSeries.Columns["id"].Visible = false;
-            dgvSeries.Columns["estado"].Visible = false; // Oculta el valor numérico
+            dgvSeries.Columns["estado"].Visible = false;
             dgvSeries.Columns["estadoTexto"].HeaderText = "Estado";
             dgvSeries.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
+            dgvSeries.Columns["urlTrailer"].HeaderText = "URL Trailer";
+            dgvSeries.Columns["idiomaOriginal"].HeaderText = "Idioma";
         }
 
 
@@ -78,7 +81,9 @@ namespace CpParcial2Ydzn
                 director = txtDirector.Text,
                 episodios = int.Parse(txtEpisodios.Text),
                 fechaEstreno = dtpFechaEstreno.Value,
-                estado = (short)((EstadoItem)cmbEstado.SelectedItem).Valor
+                estado = (short)((EstadoItem)cmbEstado.SelectedItem).Valor,
+                urlTrailer = txtUrlTrailer.Text,
+                idiomaOriginal = cmbIdiomaOriginal.SelectedItem.ToString()
             };
 
             if (esNuevo)
@@ -96,6 +101,7 @@ namespace CpParcial2Ydzn
             ListarSeries();
             LimpiarCampos();
         }
+
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
@@ -115,7 +121,10 @@ namespace CpParcial2Ydzn
                     director = txtDirector.Text.Trim(),
                     episodios = int.Parse(txtEpisodios.Text.Trim()),
                     fechaEstreno = dtpFechaEstreno.Value,
-                    estado = (short)((EstadoItem)cmbEstado.SelectedItem).Valor
+                    estado = (short)((EstadoItem)cmbEstado.SelectedItem).Valor,
+                    urlTrailer = txtUrlTrailer.Text,
+                    idiomaOriginal = cmbIdiomaOriginal.SelectedItem.ToString()
+
                 };
 
                 SerieCln.Actualizar(serie);
@@ -140,7 +149,7 @@ namespace CpParcial2Ydzn
 
                 DialogResult confirm = MessageBox.Show(
                     $"¿Estás seguro que deseas eliminar la serie \"{titulo}\"?",
-                    "Confirmar eliminación",
+                    "Confirmar eliminacion",
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Warning
                 );
@@ -148,7 +157,7 @@ namespace CpParcial2Ydzn
                 if (confirm == DialogResult.Yes)
                 {
                     SerieCln.Eliminar(id);
-                    MessageBox.Show("Serie eliminada correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Serie eliminada correctamente.", "Exito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     ListarSeries();
                     LimpiarCampos();
                 }
@@ -177,7 +186,9 @@ namespace CpParcial2Ydzn
                     director = txtDirector.Text,
                     episodios = int.Parse(txtEpisodios.Text),
                     fechaEstreno = dtpFechaEstreno.Value,
-                    estado = (short)Convert.ToInt32(cmbEstado.SelectedValue)
+                    estado = (short)Convert.ToInt32(cmbEstado.SelectedValue),
+                    urlTrailer = txtUrlTrailer.Text,
+                    idiomaOriginal = cmbIdiomaOriginal.SelectedItem.ToString()
                 };
 
                 SerieCln.Insertar(serie);
@@ -203,6 +214,9 @@ namespace CpParcial2Ydzn
                 txtDirector.Text = row.Cells["director"].Value.ToString();
                 txtEpisodios.Text = row.Cells["episodios"].Value.ToString();
                 dtpFechaEstreno.Value = Convert.ToDateTime(row.Cells["fechaEstreno"].Value);
+                txtUrlTrailer.Text = row.Cells["urlTrailer"].Value?.ToString();
+                cmbIdiomaOriginal.SelectedItem = row.Cells["idiomaOriginal"].Value?.ToString();
+
 
                 // Buscar el índice del estado en el ComboBox por su valor
                 short estado = Convert.ToInt16(row.Cells["estado"].Value);
@@ -218,5 +232,19 @@ namespace CpParcial2Ydzn
             }
         }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbIdiomaOriginal_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -4,6 +4,8 @@
     <EntitySetMapping Name="Serie">
       <EntityTypeMapping TypeName="Parcial2YdznModel.Serie">
         <MappingFragment StoreEntitySet="Serie">
+          <ScalarProperty Name="idiomaOriginal" ColumnName="idiomaOriginal" />
+          <ScalarProperty Name="urlTrailer" ColumnName="urlTrailer" />
           <ScalarProperty Name="id" ColumnName="id" />
           <ScalarProperty Name="titulo" ColumnName="titulo" />
           <ScalarProperty Name="sinopsis" ColumnName="sinopsis" />
